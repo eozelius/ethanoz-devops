@@ -1,0 +1,5 @@
+# This file is an example of how to create environment specific variables that
+# are not tracked in git.  Create a file named `.email` with the environment
+# specific email, don't forget a newline at the end of the file.
+
+sammy.samwellington@example.com
