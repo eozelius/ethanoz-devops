@@ -2,6 +2,13 @@
 # Build ethanoz image and start ethanoz container
 #################################################
 
+# 1. Pull latest ethanoz, minesweeper code
+cd ../ethanoz
+git pull origin master
+
+cd ../vue-minesweeper
+git pull origin master
+
 # 1. Build the latest docker image
 docker build -t ethanoz_image:latest .
 
